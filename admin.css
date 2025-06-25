@@ -1,0 +1,141 @@
+/* Общие стили */
+body {
+    margin: 10px;
+    padding: 5px;
+    font-family: 'Inspiration', Regular;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 10px;
+    transition: color 0.3s ease;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #aeaeae;
+    /* Цвет при наведении */
+}
+
+
+
+.nav-logo {
+    height: 48px;
+    width: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.nav-logo:hover {
+    transform: scale(1.1);
+}
+
+/* Дополнительные стили для выравнивания */
+nav ul {
+    align-items: center;
+}
+
+/* Стили для навигационной панели */
+.sidebar {
+    width: 300px;
+    background-color: #f8f1e9;
+    padding: 15px;
+    height: 100vh;
+    box-shadow: 2px 0 5px rgba(159, 70, 70, 0.1);
+}
+
+.sidebar-header {
+    padding: 10px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #e0d5c8;
+    text-align: center;
+}
+
+.sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar-menu li {
+    margin-bottom: 15px;
+}
+
+.sidebar-menu a {
+    display: block;
+    padding: 10px 15px;
+    color: #5d4a3e;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.sidebar-menu a:hover {
+    background-color: #e0d5c8;
+    color: #3a2e24;
+}
+
+.sidebar-menu a.active {
+    background-color: #d4c4b2;
+    color: #3a2e24;
+    font-weight: bold;
+}
+
+/* Основное содержимое */
+/* .main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+} */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.main-content {
+    margin-left: 270px;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}

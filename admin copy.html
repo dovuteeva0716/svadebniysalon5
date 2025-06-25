@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Свадебный салон</title>
+    <script src="script.js"></script>
+    <li><a href="clients.php">Клиенты</a></li>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">О нас</a></li>
+                    <li><a href="index2.html">Каталог платьев</a></li>
+                    <li class="logo-item">
+                        <a href="index.html">
+                            <img src="img/logo.png" alt="Say Yes Logo" class="nav-logo">
+                        </a>
+                    </li>
+                    <li><a href="index4.html">Контакты</a></li>
+                    <li><a href="index5.php">Личный кабинет</a></li>
+                </ul>
+            </nav>
+
+            <div class="sidebar">
+                <div class="sidebar-header">
+                    <h2>Свадебный салон</h2>
+                </div>
+                <ul class="sidebar-menu">
+                    <li><a href="clients.php" class="active">Клиенты</a></li>
+                    <li><a href="catalog.html">Примерки</a></li>
+                    <li><a href="clients.html">Свадебные платья</a></li>
+                    <li><a href="orders.html">Заказы</a></li>
+                    <li><a href="fitting.html">Каталог платьев</a></li>
+                    <li><a href="venues.html">Доступные места</a></li>
+                    <li><a href="users.html">Пользователи</a></li>
+                    <li><a href="reports.html"></a></li>
+                </ul>
+            </div>
+            
+            <div class="main-content">
+                <h1>Добро пожаловать в систему свадебного салона</h1>
+                <p>Выберите раздел в меню слева для работы с системой.</p>
+                
+                <!-- Вставляем данные из базы -->
+                <?php include('clients.php'); ?>
+            </div>
+        </header>
+    </div>
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Свадебный салон</title>
+    <script src="slider.js"></script>
+    <link rel="stylesheet" href="card1.css">
+</head>
+<body>
+    <div class="container">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">О нас</a></li>
+                <li><a href="index2.html">Каталог платьев</a></li>
+                <li class="logo-item">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="Say Yes Logo" class="nav-logo">
+                    </a>
+                </li>
+                <li><a href="index4.html">Контакты</a></li>
+                <li><a href="index5.html">Личный кабинет</a></li>
+            </ul>
+        </nav>
+    </header>
+</div>
+
+<div class="product-container">
+    <!-- Слайдер с фотографиями (левая часть) -->
+    <div class="slider-container">
+        <div class="slider">
+            <div class="slide active">
+                <img src="img/card3.1.png" alt="Свадебное платье Рив">
+            </div>
+            <div class="slide">
+                <img src="img/card3.2.png" alt="Свадебное платье Рив - вид сзади">
+            </div>
+            <div class="slide">
+                <img src="img/card3.3.png" alt="Свадебное платье Рив - детали">
+            </div>
+        </div>
+        <button class="slider-btn prev-btn">&lt;</button>
+        <button class="slider-btn next-btn">&gt;</button>
+        <div class="slider-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </div>
+
+    <!-- Информация о товаре (правая часть) -->
+    <div class="product-info">
+        <h1 class="product-title">Свадебное платье Agata</h1>
+        <p class="product-price">Цена: 69 300,00 ₽</p>
+        
+        <div class="product-description">
+            <p>Элегантное свадебное платье в классическом стиле с кружевными рукавами и шлейфом. Идеально подходит для торжественной церемонии, создавая образ утонченной нежности и роскоши.</p>
+        </div>
+        
+        <div class="product-details">
+            <h3>Характеристики:</h3>
+            <ul>
+                <li><strong>Материал:</strong> гипюр, шелк</li>
+                <li><strong>Цвет:</strong> белый с жемчужным отливом</li>
+                <li><strong>Стиль:</strong> классический</li>
+                <li><strong>Длина шлейфа:</strong> 1 м</li>
+                <li><strong>Рекомендуемый сезон:</strong> весна-лето</li>
+            </ul>
+        </div>
+        
+        <div class="size-selector">
+            <h3>Размер:</h3>
+            <div class="size-options">
+                <button class="size-btn">42</button>
+                <button class="size-btn">44</button>
+                <button class="size-btn">46</button>
+                <button class="size-btn">48</button>
+            </div>
+        </div>
+        <a href="index4.html" class="try-on-btn">Записаться на примерку </a>
+    </div>
+</div>
+
+  <div class="quotee">
+        <h1> Похожие платья </h1>
+    </div>
+
+    <div class="dresses-container">
+        <!-- Платье 1 -->
+        <div class="dress-card" data-id="1">
+    <div class="dress-image">
+        <img src="img/8.8.png" alt="Свадебное платье Рів">
+    </div>
+    <div class="dress-info">
+        <h3 class="dress-title">Свадебное платье Ріa</h3>
+        <p class="dress-price">Цена: 57 200,00 ₽</p>
+    </div>
+</div>
+        
+        <!-- Платье 2 -->
+        <div class="dress-card">
+            <div class="dress-image">
+                <img src="img/4.4.png" alt="Свадебное платье Kessi">
+            </div>
+            <div class="dress-info">
+                <h3 class="dress-title">Свадебное платье Кеzi</h3>
+                <p class="dress-price">Цена: 79 900,00 ₽</p>
+            </div>
+        </div>
+        
+        <!-- Платье 3 -->
+        <div class="dress-card">
+            <div class="dress-image">
+                <img src="img/9.9.png" alt="Свадебное платье Agata">
+            </div>
+            <div class="dress-info">
+                <h3 class="dress-title">Свадебное платье Ардида</h3>
+                <p class="dress-price">Цена: 69 300,00 ₽</p>
+            </div>
+        </div>
+        </div>
+
+    <footer class="site-footer">
+    <div class="footer-container">
+        <div class="footer-content">
+            <div class="footer-left">
+                <div class="contact-email">
+                    <a href="mailto:sayyes@gmail.com">sayyes@gmail.com</a>
+                </div>
+                
+                <div class="footer-social">
+                    <a href="#" class="social-icon"><img src="img/Instagram.png" alt="Instagram"></a>
+                    <a href="#" class="social-icon"><img src="img/vk.png" alt="VK"></a>
+                    <a href="#" class="social-icon"><img src="img/teleg.png" alt="Telegram"></a>
+                </div>
+            </div>
+            
+            <div class="footer-right">
+                <div class="contact-address">
+                    <p>ул. Малая Никитская, дом 2/1, стр. 1</p>
+                    <p>метро Арбатская (Арбатско-Покровская линия)</p>
+                </div>
+                
+                <div class="contact-hours">
+                    <p>Ждём вас с 08:00 до 22:00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

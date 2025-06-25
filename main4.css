@@ -1,0 +1,307 @@
+/* Общие стили */
+body {
+    margin: 10px;
+    padding: 5px;
+    font-family: 'Inspiration', Regular;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #aeaeae; /* Цвет при наведении */
+}
+
+
+
+.nav-logo {
+    height: 48px; 
+    width: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.nav-logo:hover {
+    transform: scale(1.1);
+}
+
+
+nav ul {
+    align-items: center;
+}
+
+.contacts-section {
+    display: flex;
+    max-width: 1200px;
+    margin: 40px auto;
+    gap: 10px;
+    font-family: 'Inspiration', Regular;
+}
+
+.contacts-info {
+    flex: 1;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+.section-title {
+    font-size: 28px;
+    color: #000000;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.contact-card {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 25px;
+    gap: 15px;
+}
+
+.contact-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-icon img {
+    width: 100%;
+    height: auto;
+}
+
+.contact-details {
+    flex: 1;
+}
+
+.contact-label {
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.contact-value {
+    margin: 0;
+    color: #000000;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+a.contact-value {
+    color: #c7a17a;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a.contact-value:hover {
+    color: #a38665;
+    text-decoration: underline;
+}
+
+.contacts-gallery {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.gallery-item {
+    border-radius: 8px;
+    overflow: hidden;
+    padding-top: 30px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+     border-radius: 8px;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.03);
+}
+
+ .site-footer {
+    background-color: #ffffff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-left, .footer-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-left {
+    align-items: flex-start;
+}
+
+.footer-right {
+    align-items: flex-end;
+    text-align: right;
+}
+
+.contact-email a {
+    color: #000000;
+    text-decoration: none;
+    margin-bottom: 10px; /* Изменено с 40px на 10px */
+}
+
+.footer-social {
+    display: flex;
+    gap: 8px;
+    margin-top: 15px; /* Добавлен отступ сверху */
+}
+
+.social-icon img {
+    width: 35px;
+    height: 35px;
+}
+
+.contact-address p,
+.contact-hours p {
+    margin: 0 0 5px 0;
+    color: #000000;
+}
+
+.quotee {
+    max-width: 1300px; 
+    margin: auto; 
+    padding: 0px;
+    text-align: center; 
+}
+
+.quotee h1 {
+    font-size: 32px;
+    color: #000000;
+    font-weight: normal; 
+    font-family: 'Inspiration', Regular; 
+}
+
+bodyy {
+    font-family: 'Inspiration', Regular;
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: -100px;
+}
+
+.feedback-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+.feedback-container h2 {
+    margin-top: 0;
+    color: #333;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    resize: none; /* Полностью отключаем возможность растягивания */
+    height: 70px; /* Фиксированная высота */
+    overflow-y: auto; /* Добавляем прокрутку при необходимости */
+}
+
+.submit-btn {
+    background-color: #9f9f9f;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #838383;
+}
+
+.success-message {
+    background-color: #dff0d8;
+    color: #808180;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.error {
+    border-color: #f44336 !important;
+}
+
+.error-message {
+    color: #f44336;
+    font-size: 14px;
+    margin-top: 5px;
+}

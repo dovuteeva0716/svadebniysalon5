@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Свадебный салон</title>
+    <script src="script.js"></script>
+     <script src="feedback.js"></script>
+    <link rel="stylesheet" href="main4.css">
+</head>
+<body>
+    <div class="container">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">О нас</a></li>
+                <li><a href="index2.html">Каталог платьев</a></li>
+                <li class="logo-item">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="Say Yes Logo" class="nav-logo">
+                    </a>
+                </li>
+                <li><a href="index4.html">Контакты</a></li>
+                <li><a href="index5.php">Личный кабинет</a></li>
+            </ul>
+        </nav>
+    </header>
+</div>
+<div class="quotee">
+    <h1> Контакты </h1>
+</div>
+
+<div class="contacts-section">
+    <!-- Блок с контактной информацией -->
+    <div class="contacts-info">  
+        <div class="contact-card">
+            <div class="contact-icon">
+                <img src="img/telefon.png" alt="Телефон">
+            </div>
+            <div class="contact-details">
+                <p class="contact-label">Телефон</p>
+                <a href="tel:89773624012" class="contact-value">8 977 362 40 12</a>
+            </div>
+        </div>
+        
+        <div class="contact-card">
+            <div class="contact-icon">
+                <img src="img/mesta.png" alt="Адрес">
+            </div>
+            <div class="contact-details">
+                <p class="contact-label">Адрес</p>
+                <p class="contact-value">ул. Малая Никитская, дом 2/1, стр. 1<br>метро Арбатская (Арбатско-Покровская линия)</p>
+            </div>
+        </div>
+        
+        <div class="contact-card">
+            <div class="contact-icon">
+                <img src="img/email.png" alt="Email">
+            </div>
+            <div class="contact-details">
+                <p class="contact-label">Email</p>
+                <a href="mailto:sayyes@gmail.com" class="contact-value">sayyes@gmail.com</a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Блок с фотографиями -->
+    <div class="contacts-gallery">
+        <div class="gallery-item">
+            <img src="img/адрес.png" alt="Фото салона 1">
+        </div>
+        <div class="gallery-item">
+            <img src="img/2.png" alt="Фото салона 2">
+        </div>
+    </div>
+</div>
+
+
+<bodyy>
+<div class="feedback-container">
+        <h2>Обратная связь</h2>
+        <form id="feedbackForm" class="feedback-form">
+            <div class="form-group">
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+
+            <div class="form-group">
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            
+            <button type="submit" class="submit-btn">Отправить</button>
+        </form>
+        
+        <div id="successMessage" class="success-message" style="display: none;">
+            Спасибо! Ваше сообщение отправлено. Мы свяжемся с вами в ближайшее время.
+        </div>
+    </div>
+</bodyy>
+
+
+<footer class="site-footer">
+    <div class="footer-container">
+        <div class="footer-content">
+            <div class="footer-left">
+                <div class="contact-email">
+                    <a href="mailto:sayyes@gmail.com">sayyes@gmail.com</a>
+                </div>
+                
+                <div class="footer-social">
+                    <a href="#" class="social-icon"><img src="img/Instagram.png" alt="Instagram"></a>
+                    <a href="#" class="social-icon"><img src="img/vk.png" alt="VK"></a>
+                    <a href="#" class="social-icon"><img src="img/teleg.png" alt="Telegram"></a>
+                </div>
+            </div>
+            
+            <div class="footer-right">
+                <div class="contact-address">
+                    <p>ул. Малая Никитская, дом 2/1, стр. 1</p>
+                    <p>метро Арбатская (Арбатско-Покровская линия)</p>
+                </div>
+                
+                <div class="contact-hours">
+                    <p>Ждём вас с 08:00 до 22:00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
